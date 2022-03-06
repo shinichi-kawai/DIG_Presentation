@@ -30,7 +30,7 @@ showNowTime()
 
 let favoriteThingCount = 0;
 const favoriteThingSlide = [
-    "favoriteThingSlide1.jpg",
+    "favoriteThingSlide1.gif",
     "favoriteThingSlide2.jpg",
     "favoriteThingSlide3.jpg",
     "favoriteThingSlide4.png",
