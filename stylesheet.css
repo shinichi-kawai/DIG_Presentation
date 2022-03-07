@@ -59,16 +59,17 @@
     background-color: #239b76;
     margin-right: 10px;
   }
+    
+  .favoriteThing {
+    background-color: #55acee;
+    margin-right: 10px;
+  }
   
   .wantToDo {
     background-color: #3b5998;
     margin-right: 10px;
   }
-  
-  .favoriteThing {
-    background-color: #55acee;
-    margin-right: 10px;
-  }
+
   
   .btn {
     padding: 8px 24px;
