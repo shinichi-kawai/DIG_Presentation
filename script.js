@@ -31,10 +31,19 @@ showNowTime()
 let favoriteThingCount = 0;
 const favoriteThingSlide = [
     "favoriteThingSlide1.gif",
-    "favoriteThingSlide2.jpg",
-    "favoriteThingSlide3.jpg",
-    "favoriteThingSlide4.png",
-    "favoriteThingSlide5.png"
+    "favoriteThingSlide2.JPG",
+    "favoriteThingSlide3.JPG",
+    "favoriteThingSlide4.JPG",
+    "favoriteThingSlide5.JPG",
+    "favoriteThingSlide6.JPG",
+    "favoriteThingSlide7.JPG",
+    "favoriteThingSlide8.JPG",
+    "favoriteThingSlide9.JPG",
+    "favoriteThingSlide10.JPG",
+    "favoriteThingSlide11.JPG",
+    "favoriteThingSlide12.JPG",
+    "favoriteThingSlide13.JPG",
+    "favoriteThingSlide14.JPG"
 ];
 const impressionsSlide = "DIGの所感.png";
 const impressions = document.getElementById("impressions");
@@ -43,7 +52,7 @@ const favoriteThing = document.getElementById("favoriteThing");
 function displayFavoriteThing(){
     document.getElementById("outputArea").src  = favoriteThingSlide[favoriteThingCount];
     favoriteThingCount += 1;
-    if ( favoriteThingCount === 3 ) {
+    if ( favoriteThingCount === 14 ) {
         favoriteThingCount = 0;
     }
 }
