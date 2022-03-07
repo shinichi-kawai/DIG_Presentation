@@ -51,6 +51,10 @@ function displayImpressions(){
     document.getElementById("outputArea").src  = impressionsSlide;
 }
 
+function displayImpressions(){
+    document.getElementById("outputArea").src  = impressionsSlide;
+}
+
 favoriteThing.addEventListener("click",() =>
     displayFavoriteThing ()
 );
